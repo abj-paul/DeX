@@ -1,0 +1,3 @@
+ - [X] Make a simple greeter contract and compile it
+ - [ ] Learn how to test it and test it
+ - [ ] Learn how to connect it with angular
