@@ -1,0 +1,28 @@
+NFT auction app 
+Artium is a NFT marketplace where Artium is a platform ERC20 token used in the ecosystem. Anyone can lock a certain amount of Artium to add his/her/their Art on the marketplace. After locking, people who possess Artium token can upvote or downvote on proposed art. Within a certain voting period, if there is enough upvote then, the art is minted as an NFT to the market place, owner get back their locked Artium token. If downvote cross a threshold, the locked Artium can not be claimed by the original owner. After a voting period if not enough upvote and downvote then owner claim the Locked artium back, bit the art is not minted. If the art is minted owner can add a auction, define min starting bid amount and bid period, the highest bidder after the bidding period get the ownership of the NFT is transferred to highest bidder with the price of highest bid send to the owner. There is a dex, where user can swap either to Artium and Artium to either. (you can implement any AMM as you like). Additionally, for locking owner can lock Artium of other user, after the user's approval.
+Bonus: On subsequent transfer of the first purchase in the Auction implement royalty. Meaning, the original owner gets x% of the paid price on each subsequent purchase after the first purchase.
+
+- [ ] Atrium: ERC20
+- [ ] DeX Liqduitiy Pool: atrium to ether
+- [ ] Lock Art Work
+- [ ] ArtVoting: upload art as IPFS --> People can upvote/downvote --> 3 ta case 
+- [ ] Create NFT for the art 
+- [ ] Auction: People can bid
+
+* Frontend
+** Liquidity Pool
+1 textbox - to get atrium from ether: print that u have 10 atrium now!
+** Art Voting
+- Upload image and get IPFS Link
+- Post the link to blockchain
+- Build a timeline with all images: IPFS Link list
+- Each image will have upvote,downvote button. 
+- Another separate window: one button - see result. 
+    - upvote beshi: print NFT tokenId/address
+    - downvote beshi: show "bad art!"
+    - less vote: "show less vote"
+** Auction
+- create auction: Input NFT Id, minimum bid, increment
+- Auction List timeline
+- Auction View: IPFS Image, Bid textbow, bid
+- End auction and print result of auction
